@@ -210,8 +210,8 @@ function downloadGraph(graphURL, callback, message, finalRating, isFollowUp) {
         context.fillStyle = `rgb(255, 255, 255)`;
         context.strokeStyle = `rbg(0, 0, 0)`;
         context.lineWidth = width * 0.003;
-        context.fillText(`image SIZE: ${finalRating[0]}"`, width*0.59, width*0.11);
-        context.strokeText(`image SIZE: ${finalRating[0]}"`, width*0.59, width*0.11);
+        context.fillText(`POWER LEVEL: ${finalRating[0]}`, width*0.59, width*0.11);
+        context.strokeText(`POWER LEVEL: ${finalRating[0]}`, width*0.59, width*0.11);
 
 
         //Draw the image itself
