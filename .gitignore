@@ -16,6 +16,7 @@ Thumbs.db
 
 # OTHER #
 #########
-
+token.json
+config.json
 node_modules
 *.txt
